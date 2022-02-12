@@ -12,7 +12,7 @@ namespace AutonomousCars
         // ( 180 degrees west to 180 degrees east )
         public double Longitude { get;}
 
-        // Altitude value in millimeters above see level
+        // Altitude value in millimeters above sea level
         public double Altitude { get;}
 
         public GPSData(double latitude, double longitude, double altitude)

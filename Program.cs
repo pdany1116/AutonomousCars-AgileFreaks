@@ -5,6 +5,7 @@ namespace AutonomousCars
 {
     internal class Program
     {
+        // Small program which tests the closest vehicle functionality.
         static void Main(string[] args)
         {
             IVehicle car = new Vehicle(

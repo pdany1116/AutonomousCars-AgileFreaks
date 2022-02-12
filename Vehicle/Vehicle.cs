@@ -21,7 +21,7 @@ namespace AutonomousCars
                 throw new ArgumentException("Invalid vehicle!");
             }
 
-            // Calculate euclid distance to vehicle
+            // Calculate Euclid's distance to vehicle
             return Math.Sqrt(
                 Math.Pow(_vehicleInformation.GPSData.Latitude - vehicle.VehicleInformation.GPSData.Latitude, 2) + 
                 Math.Pow(_vehicleInformation.GPSData.Longitude - vehicle.VehicleInformation.GPSData.Longitude, 2) +
